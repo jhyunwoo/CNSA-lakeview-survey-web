@@ -1,0 +1,112 @@
+.head {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.title {
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.menu {
+  padding-top: 0px;
+  padding-bottom: 50px;
+  position: relative;
+  text-align: center;
+  background-color: white;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #e3c081;
+}
+
+#date {
+  padding-top: 20px;
+}
+
+#CNSA {
+  color: #0c4da2;
+  font-size: 50px;
+  font-weight: 600;
+}
+
+#lake {
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.menu-detail {
+  display: flex;
+  text-align: center;
+}
+
+.breakfast {
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: auto;
+  width: 200px;
+  height: 400px;
+  background-color: #fd7336;
+}
+
+.lunch {
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: auto;
+  background-color: #b12737;
+  height: 400px;
+  width: 200px;
+}
+
+.dinner {
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: auto;
+  background-color: #50424b;
+  height: 400px;
+  width: 200px;
+}
+
+.buttom {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  display: flex;
+  position: relative;
+}
+
+button,
+button::after {
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+button {
+  background: none;
+  border: 3px solid #9dbca6;
+  border-radius: 5px;
+  color: #9dbca6;
+  display: block;
+  font-size: 1.6em;
+  font-weight: bold;
+  margin: 1em auto;
+  padding: 2em 2em;
+  position: relative;
+  text-transform: uppercase;
+}
+
+button::before,
+button::after {
+  background: #9dbca6;
+  content: "";
+  position: absolute;
+  z-index: -1;
+}
+
+button:hover {
+  color: rgb(29, 129, 71);
+}
